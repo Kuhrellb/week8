@@ -1,0 +1,51 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    padding: 8x;
+    text-align: left;
+    border-bottom: 1px solid gray;
+}
+tr:nth-child(even){
+    background-color: gray;
+}
+tr:hover{
+    background-color: red;
+}
+ul.hov{
+    height: 200px;
+    width: 200px;
+    background-color: gray;
+}
+.hov:hover{
+    background-color: red;
+}
+.every-even li:nth-child(even){
+    background-color: gray;
+}
+table, th, td{
+    border: 8px solid;
+}
+
+
+.index-h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-style: italic;
+    text-decoration:underline;
+}
+#MJ1{
+    font-size: 23px;
+    color:black;
+    text-align: justify;
+}
+#P1{
+    float: left;
+    margin-right: 20px;
+}
+#P2{
+    float: right;
+    margin-left: 20px;
+}
